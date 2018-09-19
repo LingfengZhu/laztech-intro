@@ -20,7 +20,6 @@ This is the friendly documents that introduce to you what we're doing and how we
    4. How long did it take? Can it be improved?
 
 2. Here's the things you need to install/get through: (detail will post later)
-
   1. Julia (0.6.4, and 1.0.0), Python
      1. Basic Julia syntax. Matrix operation. Install/Call Julia module. Call python module. 
      2. Some libraries in Julia: `HDF5`, ``
