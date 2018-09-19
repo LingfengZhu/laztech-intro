@@ -21,9 +21,9 @@ This is the friendly documents that introduce to you what we're doing and how we
 
 2. Here's the things you need to install/get through: (detail will post later)
   1. Julia (0.6.4, and 1.0.0), Python
-     1. Basic Julia syntax. Matrix operation. Install/Call Julia module. Call python module. 
-     2. Some libraries in Julia: `HDF5`, ``
-     3. Some libraries in Python: `numpy`, `matlibplot`
+    1. Basic Julia syntax. Matrix operation. Install/Call Julia module. Call python module. 
+    2. Some libraries in Julia: `HDF5`, ``
+    3. Some libraries in Python: `numpy`, `matlibplot`
   2. Github
   3. Anaconda (prefereably 2)
   4. 
