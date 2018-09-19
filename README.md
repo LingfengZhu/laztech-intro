@@ -14,19 +14,17 @@ This is the friendly documents that introduce to you what we're doing and how we
 ## Read from here
 
 1. Read this:[Get Started in LazTech Group](https://www.overleaf.com/9279691msypmpcjnpqp#/33470921/). The essential basics of physics is stated here. Make sure you read this. Here are several questions:
-   1. What is 
+   1. What is VGT? Can you explain it in theory and algorithm?
    2. Can you run the code without error? Why?
    3. What's the code talks about? What's the result?
    4. How long did it take? Can it be improved?
 
 2. Here's the things you need to install/get through: (detail will post later)
-  1. Julia (0.6.4, and 1.0.0), Python
-    1. Basic Julia syntax. Matrix operation. Install/Call Julia module. Call python module. 
-    2. Some libraries in Julia: `HDF5`, ``
-    3. Some libraries in Python: `numpy`, `matlibplot`
-  2. Github
-  3. Anaconda (prefereably 2)
-  4. 
+  1. **Julia (0.6.4, and 1.0.0), Python.** Make sure you understand: Basic Julia syntax. Matrix operation. Install/Call Julia module. Call python module. Some libraries in Julia: `HDF5`, `Stats`.Some libraries in Python: `numpy`, `matlibplot`, `astropy`.  (Some questions will be throw later)
+
+  2. **Github**
+
+  3. **Anaconda (prefereably 2), Jupyter Notebook / Jupyter Lab**. This is a great tool that will accelerate your workflow. Besides, @Mike will post some tutorials using the Jupyter Notebook. (If you have trouble install, you can try use these: [Julia Pro](https://juliacomputing.com/products/juliapro.html),  )
 
 
 3. This week paper:
@@ -41,4 +39,20 @@ This is the friendly documents that introduce to you what we're doing and how we
 
 ## Questions 
 
-1. 
+or Assignments ...? You should spend sometime to review these. These are not core in the research, but would be better if you actually know how to do it safe, fast and accurately.
+
+**Q1 [Simple]:** Write a Julia program that reads all the HDF5 files from a directory, and print out file information. Function prototype looks like roughly: `function openHDFFiles( directoryName )`, but you can do whatever you want. 
+
+**YouNeedToKnow:** 
+
+- Julia internal command to change directory (maybe not used in the function)
+- How to call python library from Julia
+- Python library function `glob` to grab all things in a directory
+- HDF5 function to show file)
+
+**Further Question**:
+
+- How do you prevent the program from interruption when some operation throws exception (Hint: `try-catch ` statement would help you). This is useful when you write a big, overnight program and you don't want the program to stop, but some times things are not going well. (Also, how will `try-catch` influence the performance?)
+- How should you know 
+
+Write a Julia program that takes
