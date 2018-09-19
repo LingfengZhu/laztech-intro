@@ -11,6 +11,8 @@ Don't worry. No one's gonna test you about astrophysics or VGT, nor should you t
 
 This is the friendly documents that introduce to you what we're doing and how we do it. You're welcome to selectively read the contents at your own pace. 
 
+I know it's hard, but you're gonna grow yourself fast to surprise yourself. Believe it or not, it's great.
+
 ## Read from here
 
 1. Read this:[Get Started in LazTech Group](https://www.overleaf.com/9279691msypmpcjnpqp#/33470921/). The essential basics of physics is stated here. Make sure you read this. Here are several questions:
@@ -41,23 +43,25 @@ This is the friendly documents that introduce to you what we're doing and how we
 
 or Assignments ...? You should spend sometime to review these. These are not core in the research, but would be better if you actually know how to do it safe, fast and accurately.
 
-**Q1 [Simple]:** Write a Julia program that reads all the HDF5 files from a directory, and print out file information. Function prototype looks like roughly: `function openHDFFiles( directoryName )`, and call the function like this = `openHDFFiles("path/to/some/directory")`. But you can do whatever you want. 
+### Q1 [Simple]: Write a Julia program that reads all the HDF5 files from a directory, and print out file information. 
+
+Function prototype looks like roughly: `function openHDFFiles (directoryName)`, and you can call the function like this: `openHDFFiles("path/to/some/directory")`. But you can do whatever you want. 
 
 When you done the function writing, download some HDF5 files from google. You can tell us to send you some, but it's good that you explore some too.
 
-**YouNeedToKnow:** 
+#### YouNeedToKnow
 
-- Julia internal command to change directory (maybe not used in the function)
-- How to call python library from Julia
-- Python library function `glob` to grab all things in a directory
-- HDF5 function to show file)
+1. Julia internal command to change directory (maybe not used in the function)
+2. How to call python library from Julia
+3. Python library function `glob` to grab all things in a directory
+4. HDF5 function to show file)
 
-**Further Question**:
+#### Further Question:
 
-- (Exception Handling) How do you prevent the program from interruption when some operation throws exception (Hint: `try-catch ` statement would help you). This is useful when you write a big, overnight program and you don't want the program to stop, but some times things are not going well. (Also, how will `try-catch` influence the performance?)
-- (Profiling) How do you print the time of each HDF5 file being read? (Hint: `@time` directory will help you). How do you time the entire for loop? The entire function? What will the output look like? **What tool** can you use to actually see how many times are spend on each line, how many memory is being allocated? **Visualize them!!!**.
-- (Multiple Return Value) Make the function return these information: (1) total opened file numbers, (2) every file's size. You should call the function like this: ` filenumbers, filesize = openHDFFiles("path/to/some/directory")`. How should you get filesizes and store them? (Hint: `push!(array, element)`) How should you write the return statement? (Hint: use tuple:`return (filenumbers, filesize_array)`). 
-- (Coding Style) There are some general coindg styles ([Google-Java-style](https://google.github.io/styleguide/javaguide.html), [Julia-style guide](https://docs.julialang.org/en/v0.6.2/manual/style-guide/)). Just look through them a little bit. Don't spend too much time on this because the ultimate goal for us is that **your code should be: readable, easily-understood, easy to change, easy to be called by your member**. That's it.
+1. (**Exception Handling**) How do you prevent the program from interruption when some operation throws exception (Hint: `try-catch ` statement would help you). This is useful when you write a big, overnight program and you don't want the program to stop, but some times things are not going well. (Also, how will `try-catch` influence the performance?)
+2. (**Profiling**) How do you print the time of each HDF5 file being read? (Hint: `@time` directory will help you). How do you time the entire for loop? The entire function? What will the output look like? **What tool** can you use to actually see how many times are spend on each line, how many memory is being allocated? **Visualize them!!!**.
+3. (**Multiple Return Value**) Make the function return these information: (1) total opened file numbers, (2) every file's size. You should call the function like this: ` filenumbers, filesize = openHDFFiles("path/to/some/directory")`. How should you get filesizes and store them? (Hint: `push!(array, element)`) How should you write the return statement? (Hint: use tuple:`return (filenumbers, filesize_array)`). 
+4. (**Coding Style**) There are some general coindg styles ([Google-Java-style](https://google.github.io/styleguide/javaguide.html), [Julia-style guide](https://docs.julialang.org/en/v0.6.2/manual/style-guide/)). Just look through them a little bit. Don't spend too much time on this because the ultimate goal for us is that **your code should be: readable, easily-understood, easy to change, easy to be called by your member**. That's it.
 
 
 
