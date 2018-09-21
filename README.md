@@ -87,7 +87,7 @@ When you done the function writing, download some HDF5 files from google. You ca
 
 
 
-### Q2 [Simple]: Use multi-cursor to transform the file from format A to B
+### Q2 [Simple]: Use Sublime Text multi-cursor to transform the file from format A to B
 
 Use Sublime Text to achieve the following things:
 
