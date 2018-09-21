@@ -13,33 +13,50 @@ This is the friendly documents that introduce to you what we're doing and how we
 
 I know it's hard, but you're gonna grow yourself fast to surprise yourself. Believe it or not, it's great.
 
-## Read from here
+## Section 1: Basic physics and coding
 
-1. Read [Get Started in LazTech Group](https://www.overleaf.com/9279691msypmpcjnpqp#/33470921/). The essential basics of physics is stated here. Make sure you read this. Here are several questions:
-   1. What is VGT? Can you explain it in theory and algorithm?
-   2. Can you run the code without error? Why?
-   3. What's the code talks about? What's the result?
-   4. How long did it take? Can it be improved?
+### Read THIS FIRST:  [Get Started in LazTech Group](https://www.overleaf.com/9279691msypmpcjnpqp#/33470921/).
 
-2. Install: (detail will post later)
-   1. **Julia (0.6.4, and 1.0.0), Python.** Make sure you understand: Basic Julia syntax. Matrix operation. Install/Call Julia module. Call python module. Some libraries in Julia: `HDF5`, `Stats`.Some libraries in Python: `numpy`, `matlibplot`, `astropy`.  (Some questions will be throw later)
-   2. **Github**
-   3. **Anaconda (prefereably 2), Jupyter Notebook / Jupyter Lab**. This is a great tool that will accelerate your workflow. Besides, @Mike will post some tutorials using the Jupyter Notebook. (If you have trouble install, you can try use these: [Julia Pro](https://juliacomputing.com/products/juliapro.html),  )
-
-
-3. This week paper:
-
-- [Velocity Gradients as a Tracer for Magnetic Fields](https://arxiv.org/abs/1608.06867)
-
-- [Tracing interstellar magnetic field using velocity gradient technique: Application to Atomic Hydrogen data]( https://arxiv.org/abs/1701.07944)
-
-- [Synchrotron intensity gradients as tracers of magnetic field](https://arxiv.org/abs/1701.07883)
+Read [Get Started in LazTech Group](https://www.overleaf.com/9279691msypmpcjnpqp#/33470921/). The essential basics of physics is stated here. Make sure you read this. Here are several questions:
+​      1. What is VGT? Can you explain it in theory and algorithm?
+​      2. Can you run the code without error? Why?
+​      3. What's the code talks about? What's the result?
+​      4. How long did it take? Can it be improved?
 
 
 
-## Questions 
+## Section 2: Software Requirements / Skills
 
-or Assignments ...? You should spend sometime to review these. These are not core in the research, but would be better if you actually know how to do it safe, fast and accurately.
+I know that some are covered in the previous section. But let's just briefly sum up some of the things that is required for a fast research development.
+
+So, basically, install these:
+
+      1. **Julia (0.6.4, and 1.0.0), Python.** Make sure you understand: Basic Julia syntax. Matrix operation. Install/Call Julia module. Call python module. Some libraries in Julia: `HDF5`, `Stats`.Some libraries in Python: `numpy`, `matlibplot`, `astropy`.  (Some questions will be throw later)
+      2. **Github**. Also learn to use
+      3. **Anaconda (prefereably 2), Jupyter Notebook / Jupyter Lab**. I know you can just use commandline, but these are great tools that will accelerate your workflow. Besides, @Mike will post some tutorials using the Jupyter Notebook. (If you have trouble install, you can try use these: [Julia Pro](https://juliacomputing.com/products/juliapro.html), Atom (with uber-juno extension)).
+      4. 
+
+## Section 3: Laztech Journal Club - Papers
+
+### Current Week paper:
+
+[Unveiling the Role of the Magnetic Field at the Smallest Scales of Star Formation](https://arxiv.org/abs/1706.03806)
+
+
+
+### Read also (our recent paper):
+
+- [Velocity Gradients as a Tracer for Magnetic Fields (G-CL16) ](https://arxiv.org/abs/1608.06867)
+
+- [Tracing interstellar magnetic field using velocity gradient technique: Application to Atomic Hydrogen data (YL17a) ](https://arxiv.org/abs/1701.07944)
+
+- [Synchrotron intensity gradients as tracers of magnetic field (LYLC17)](https://arxiv.org/abs/1701.07883)
+
+
+
+## Questions
+
+or Assignments ...?  You should spend sometime to review these to do things safe, fast and accurately.
 
 ### Q1 [Simple]: Write a Julia program that reads all the HDF5 files from a directory, and print out file information. 
 
@@ -63,4 +80,4 @@ When you done the function writing, download some HDF5 files from google. You ca
 
 
 
-**Q2 [Simple]**: Use Jupyter notebook
+### Q2 [Simple]: 
