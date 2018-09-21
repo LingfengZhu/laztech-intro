@@ -73,10 +73,10 @@ When you done the function writing, download some HDF5 files from google. You ca
 
 #### YouNeedToKnow
 
-1. Julia internal command to change directory (maybe not used in the function)
-2. How to call python library from Julia
+1. Julia internal command to change directory `cd()`
+2. How to call python library from Julia: `using PyCall; @pyimport some.python.module`
 3. Python library function `glob` to grab all things in a directory
-4. HDF5 function to show file)
+4. HDF5 function to show file `h5.open()`
 
 #### Further Question:
 
@@ -87,4 +87,98 @@ When you done the function writing, download some HDF5 files from google. You ca
 
 
 
-### Q2 [Simple]: 
+### Q2 [Simple]: Use multi-cursor to transform the file from format A to B
+
+Use Sublime Text to achieve the following things:
+
+#### Format A:
+
+Text Segment 1:
+
+```julia
+var1 = 3
+somevar2 = 6
+a_differnet_var3 = 9
+also_a_different_thing = 12
+name_it_so_no_comman_subchar_is_shared = 6
+```
+
+Text Segment 2:
+
+```
+nothing interesting
+interested in you
+just different thing
+so that you have to use
+multi-cursor to do it
+```
+
+#### Format B:
+
+```julia
+var1 = 3 # var1 : nothing interesting
+somevar2 = 6 # somevar2 : interested in you
+a_differnet_var3 = 9 # a_differnet_var3 : just different thing
+also_a_different_thing = 12 # also_a_different_thing : so that you have to use
+name_it_so_no_comman_subchar_is_shared = 6 # name_it_so_no_comman_subchar_is_shared : multi-cursor to do it
+```
+
+#### YouNeedToKnow
+
+1. Select all the specific character `=` and generate multicursor in your panel (use `Find all`)
+2. Move all cursors to the front/end of the line simultaneously
+3. Select a word (from that position) of each line, copy and paste them to the end of the line
+4. Copy another file of same number of lines and directly concatenate with everyline in this file (simple copy-paste using multi-cursor)
+
+#### Further Questions:
+
+1. (**Indentation**) What should you do if you want to indent every line exactly 4 spaces away from the start of line? (Hint: Select All and then try tab) How about indent 4 spaces *back* to the start of line?
+2. (**Insert line**) How about insert a blank line after each line? How do you duplicate each line just underneath its original line? Look at Format C for example. 
+3. 
+
+
+
+Format C:
+
+Before:
+
+```
+a
+b
+c
+```
+
+After:
+
+```
+a
+a
+b
+b
+c
+c
+```
+
+
+
+Format D:
+
+Before:
+
+```
+1
+2
+3
+```
+
+After:
+
+```
+1
+2
+3
+1
+2
+3
+```
+
