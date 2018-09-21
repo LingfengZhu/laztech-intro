@@ -31,15 +31,15 @@ These are the softwares that all members will use in their life. Some are covere
 
 So, install / try to use these great softwares to improve your coding life:
 
-      1. **Julia (0.6.4, and 1.0.0), Python.** Make sure you understand: Basic Julia syntax. Matrix operation. Install/Call Julia module. Call python module. Some libraries in Julia: `HDF5`, `Stats`.Some libraries in Python: `numpy`, `matlibplot`, `astropy`.  (Some questions will be throw later)
-      2. **Github**. Also learn to use
-      3. **Anaconda (prefereably 2), Jupyter Notebook / Jupyter Lab**. I know you can just use commandline, but these are great tools that will accelerate your workflow. Besides, @Mike will post some tutorials using the Jupyter Notebook. (If you have trouble install, you can try use these: [Julia Pro](https://juliacomputing.com/products/juliapro.html), Atom (with uber-juno extension)).
-      4. Good text editors. **[Sublime Text](https://www.sublimetext.com)** and **[Atom](https://atom.io)** will always help you to do some tedious job, especially the *multi-cursor*, *project-wide search & replace* for symbols. even intergrated Julia environment, etc. Learn them in our latter [Question section #2](#Q2 [Simple]: ) to contemplate the beauty of smooth operation. 
-      5. **Slack**
-      6. **Teamviewer** and **VNC Viewer** for remote access to our protal.
-      7. [**Typora**](https://typora.io/) for [markdown](https://markdown-it.github.io/) documentation. You can even use Typora to write some LaTeX, which makes your life much more visualized and easier.
-      8. **[Overleaf](https://www.overleaf.com/)**. The formal platform to write and generate our LaTeX-based papers. Note that Typora can't do serious LaTeX. Overleaf allows us to share the paper with group members and edit it altogether. Get used to LaTeX and try it.
-      9. (Win User) [Cygwin](http://www.cygwin.com/) to use a fake-shell on your Windows computer (Mac is great :). Also install an [Ubuntu kernel on Windows](https://tutorials.ubuntu.com/tutorial/tutorial-ubuntu-on-windows#0) for better experience, performance and thus life.
+1. **Julia (0.6.4, and 1.0.0), Python.** Make sure you understand: Basic Julia syntax. Matrix operation. Install/Call Julia module. Call python module. Some libraries in Julia: `HDF5`, `Stats`.Some libraries in Python: `numpy`, `matlibplot`, `astropy`.  (Some questions will be throw later)
+2. **Github**. Also learn to use
+3. **Anaconda (prefereably 2), Jupyter Notebook / Jupyter Lab**. I know you can just use commandline, but these are great tools that will accelerate your workflow. Besides, @Mike will post some tutorials using the Jupyter Notebook. (If you have trouble install, you can try use these: [Julia Pro](https://juliacomputing.com/products/juliapro.html), Atom (with uber-juno extension)).
+4. Good text editors. **[Sublime Text](https://www.sublimetext.com)** and **[Atom](https://atom.io)** will always help you to do some tedious job, especially the *multi-cursor*, *project-wide search & replace* for symbols. even intergrated Julia environment, etc. Learn them in our latter [Question section #2](#Q2 [Simple]: ) to contemplate the beauty of smooth operation. 
+5. **Slack**
+6. **Teamviewer** and **VNC Viewer** for remote access to our protal.
+7. [**Typora**](https://typora.io/) for [markdown](https://markdown-it.github.io/) documentation. You can even use Typora to write some LaTeX, which makes your life much more visualized and easier.
+8. **[Overleaf](https://www.overleaf.com/)**. The formal platform to write and generate our LaTeX-based papers. Note that Typora can't do serious LaTeX. Overleaf allows us to share the paper with group members and edit it altogether. Get used to LaTeX and try it.
+9. (Win User) [Cygwin](http://www.cygwin.com/) to use a fake-shell on your Windows computer (Mac is great :). Also install an [Ubuntu kernel on Windows](https://tutorials.ubuntu.com/tutorial/tutorial-ubuntu-on-windows#0) for better experience, performance and thus life.
 
 These are a lot. Take a breath and if you have any question, post it on the [issue page](https://github.com/Tairokiya/laztech-intro/issues).
 
