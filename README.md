@@ -40,6 +40,7 @@ So, install / try to use these great softwares to improve your coding life:
 7. [**Typora**](https://typora.io/) for [markdown](https://markdown-it.github.io/) documentation. You can even use Typora to write some LaTeX, which makes your life much more visualized and easier.
 8. **[Overleaf](https://www.overleaf.com/)**. The formal platform to write and generate our LaTeX-based papers. Note that Typora can't do serious LaTeX. Overleaf allows us to share the paper with group members and edit it altogether. Get used to LaTeX and try it.
 9. (Win User) [Cygwin](http://www.cygwin.com/) to use a fake-shell on your Windows computer (Mac is great :). Also install an [Ubuntu kernel on Windows](https://tutorials.ubuntu.com/tutorial/tutorial-ubuntu-on-windows#0) for better experience, performance and thus life.
+10. (Mac User) [iTerm2](https://www.iterm2.com/) is a good terminal only if you know how to configurate it. Here's one of the configuration: [iTerm2 + Oh My Zsh + Solarized color scheme + Meslo powerline font](https://gist.github.com/kevin-smets/8568070)
 
 These are a lot. Take a breath and if you have any question, post it on the [issue page](https://github.com/Tairokiya/laztech-intro/issues).
 
