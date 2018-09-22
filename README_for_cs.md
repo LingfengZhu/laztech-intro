@@ -1,8 +1,8 @@
-# README
+# Laztech Tech Playlist
 
 For CS student who wants to do three.js visualization
 
-## Section 1. Try using three.js
+## Section 1. three.js
 
 Try it: [three.js - examples](https://threejs.org/), and try to build yourself a small animation: [three.js-doc](https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene). 
 
