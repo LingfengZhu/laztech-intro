@@ -9,11 +9,7 @@ The **Velocity Gradient Technique (VGT)** is a prospective technique to __map th
 
 Don't worry. No one's gonna test you about astrophysics or VGT, nor should you think that having Physics/CS/Statistics background alone can achieve great things on your own. The thing is this: you might need to understand each of them for a little bit, and learn the rest iteratively and cooperatively with our nice yet highly efficient and demanding team members. You will learn a lot -- not just hard skills, but also how to do science like doing a business.
 
-This is the friendly documents that introduce to you what we're doing and how we do it. You're welcome to selectively read the contents at your own pace. 
-
-I know it's hard, but you're gonna grow yourself fast to surprise yourself. Believe it or not, it's great.
-
-## Section 1: Basic physics and coding
+## 1. Basic physics and coding
 
 ### Read THIS FIRST:  [Get Started in LazTech Group](https://www.overleaf.com/9279691msypmpcjnpqp#/33470921/).
 
@@ -25,7 +21,7 @@ Read [Get Started in LazTech Group](https://www.overleaf.com/9279691msypmpcjnpqp
 
 
 
-## Section 2: Software Requirements 
+## 2. Software Requirements 
 
 These are the softwares that all members will use in their life. Some are covered in the previous section, some are not. 
 
@@ -46,7 +42,7 @@ These are a lot. Take a breath and if you have any question, post it on the [iss
 
 ## Laztech Journal Club - Papers
 
-### Current Week paper:
+### Current Week paper (9/26 W meeting)
 
 [Unveiling the Role of the Magnetic Field at the Smallest Scales of Star Formation](https://arxiv.org/abs/1706.03806)
 
@@ -134,52 +130,10 @@ name_it_so_no_comman_subchar_is_shared = 6 # name_it_so_no_comman_subchar_is_sha
 #### Further Questions:
 
 1. (**Indentation**) What should you do if you want to indent every line exactly 4 spaces away from the start of line? (Hint: Select All and then try tab) How about indent 4 spaces *back* to the start of line?
-2. (**Insert line**) How about insert a blank line after each line? How do you duplicate each line just underneath its original line? Look at Format C for example. 
-3. 
 
+2. ([Regular Expression](https://regex101.com/)101) How to search specific word in the text? How to search for the "start of line"? How to search the "end of line"? 
 
+3. ([Regular Expression](https://regex101.com/)301) How to generate a regex such that it matches a hyperlink? A string wrapped by `""`? A LaTeX formular wrapped by `$$` and might have lines in between? 
 
-Format C:
-
-Before:
-
-```
-a
-b
-c
-```
-
-After:
-
-```
-a
-a
-b
-b
-c
-c
-```
-
-
-
-Format D:
-
-Before:
-
-```
-1
-2
-3
-```
-
-After:
-
-```
-1
-2
-3
-1
-2
-3
-```
+4. (**Insert line**) How about insert a blank line after each line? How do you duplicate each line just underneath its original line? 
 
