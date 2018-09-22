@@ -4,11 +4,11 @@ For CS student who wants to do three.js visualization
 
 ## Section 1. three.js
 
-Try it: [three.js - examples](https://threejs.org/), and try to build yourself a small animation: [three.js-doc](https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene). 
+Try it: [three.js - examples](https://threejs.org/), and try to build yourself a small animation: [three.js-doc](https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene). If you're a video-person, you might want to check out Youtube for these videos by [Mad Dog](https://www.youtube.com/watch?v=Nebx5Rm46Gs&list=PLOGomoq5sDLutXOHLlESKG2j9CCnCwVqg&index=1). 
 
-After walking through the *Getting Started* and *Next Step* sections of the document, explain to me:
+Here are some questions:
 
-1. (**Basic process**) What is the whole process of the running script (like explaining how "hello world" program is run)
+1. (**Basic process**) After walking through the *Getting Started* and *Next Step* sections of the document, explain to me: What is the whole process of the running script (like explaining how "hello world" program is run)
 2. (**Concepts**) What are the significant concepts (or important objects) you need to understand? (eg. Scene, camera, render, mesh, <u>loader</u>)
 3. (**Basic Running and Development**) What's the basic HTML structure that makes the code run? (It's okay that you put javascript in html) Understand what these are doing: [just go through the source code and try to present me what's going on]
    1. [Geometry/Minecraft](https://threejs.org/examples/#webgl_geometry_minecraft): how do you realize control? render? light? What improvement can be make for the control function?  
@@ -35,4 +35,19 @@ After walking through the *Getting Started* and *Next Step* sections of the docu
       2. How to make user more comfortable to see the data change?
          1. (Buffer and animation frame approximation): How to buffer data so that when user drags the timeline the animation is not stucked?
          2. (Dynamic slicing): Human usually only focus on a region of data. How to only load the visible data at a time? Is it also possible to design a "cut" so that user usually see a plain at every change?
-         3. 
+
+### Our Job
+
+1. Design an example explaining how magnetic field is oriented on a plane.
+2. Design an example explaining what is magnetic turbulence, and how do we derive Velocity Gradient Technique. Draft the implementation and see how we should implement.
+3. Design an example explaining the synchrontron radiation. Specifically, let people try to adjust the magnetic field and the ratio of $^{12}CO:H_2​$, the position of particle source, the thickness of cloud, and the distance from the cloud to the surface. Draft the implementation and see how we should implement.
+
+### Additional Resources
+
+[Youtube - Introduction to Three.js](https://www.youtube.com/watch?v=GlLPYIDrxbM&list=PLOGomoq5sDLutXOHLlESKG2j9CCnCwVqg&index=1): A series of great intros to `Three.js`. The speed might be a little bit slow, but if that's what you need, you could definitely check it out.
+
+[Youtube - Introduction to Blender](https://www.youtube.com/watch?v=Xh2Xuo00f0c): The blender video that shows how the ocean is made. 
+
+
+
+## Section 2. Web Development
